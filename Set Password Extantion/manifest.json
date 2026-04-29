@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Set Password",
+  "version": "1.0",
+  "description": "Fills password fields and submits the form",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Set Password"
+  }
+}
